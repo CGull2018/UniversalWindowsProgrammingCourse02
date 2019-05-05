@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:Name="txtBoxDisplay" HorizontalAlignment="Left" Margin="53,120,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" 
+                 Width="266"/>
+
+        <TextBox x:Name="txtBoxInput1" HorizontalAlignment="Left" Margin="53,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="txtBoxInput2" HorizontalAlignment="Left" Margin="248,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+        <Button x:Name="btnSubmit" Content="Calculate" HorizontalAlignment="Left" Margin="123,266,0,0" VerticalAlignment="Top" 
+                RenderTransformOrigin="-0.031,0.188" Width="139" Click="btnSubmit_Click"/>
+
+        <HyperlinkButton x:Uid="hlkWebSite" Content="Go" HorizontalAlignment="Left" Margin="53,77,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="btnCourse1" Content="Course 1" HorizontalAlignment="Left" Margin="41,337,0,0" VerticalAlignment="Top" 
+                Click="btnCourseName1_Click"/>
+
+        <Button x:Name="btnCourse2" Content="Course 2" HorizontalAlignment="Left" Margin="41,374,0,0" VerticalAlignment="Top" 
+                Click="btnCourseName2_Click"/>
+
+        <Button x:Name="btnCourse3" Content="Course 3" HorizontalAlignment="Left" Margin="41,411,0,0" VerticalAlignment="Top" 
+                Click="btnCourseName3_Click"/>
+
+        <TextBox x:Name="txtBoxCourse" HorizontalAlignment="Left" Margin="185,374,0,0" TextWrapping="Wrap" Text="TextBox" 
+                 VerticalAlignment="Top" Height="163" Width="134"/>
+
+        <TextBox x:Name="txtBoxRas" Background="Aquamarine" HorizontalAlignment="Left" Margin="53,157,0,0" TextWrapping="Wrap" 
+                 Text="TextBox" VerticalAlignment="Top" Width="266"/>
+
+        <HyperlinkButton x:Name="hypLnkPage2" Content="Page" HorizontalAlignment="Left" Margin="154,77,0,0" VerticalAlignment="Top" Click="hypLnkPage2_Click"/>
+
+        <TextBox x:Name="txtBoxFooter" HorizontalAlignment="Left" Margin="41,598,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="271"/>
+        <HyperlinkButton x:Name="Module03" Content="User Entry (Module 03)" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Module03_Click"/>
+        <HyperlinkButton x:Name="Module04" Content="To Do List Entry (Module 04)" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Click="Module04_Click"/>
+
+    </Grid>
+</Page>

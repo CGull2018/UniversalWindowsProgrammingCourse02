@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gullickson\\Documents\\Rasmussen Classes\\July2-Aug9\\UniversalProgramming 2\\CGullickson_M4_CourseProject\\Course Project\\App1\\App1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gullickson\\Documents\\Rasmussen Classes\\July2-Aug9\\UniversalProgramming 2\\CGullickson_M4_CourseProject\\Course Project\\App1\\App1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gullickson\\Documents\\Rasmussen Classes\\July2-Aug9\\UniversalProgramming 2\\CGullickson_M4_CourseProject\\Course Project\\App1\\App1.csproj",
+        "projectName": "App1",
+        "projectPath": "C:\\Users\\Gullickson\\Documents\\Rasmussen Classes\\July2-Aug9\\UniversalProgramming 2\\CGullickson_M4_CourseProject\\Course Project\\App1\\App1.csproj",
+        "packagesPath": "C:\\Users\\Gullickson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gullickson\\Documents\\Rasmussen Classes\\July2-Aug9\\UniversalProgramming 2\\CGullickson_M4_CourseProject\\Course Project\\App1\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gullickson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.15063"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.15063": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.15063": {
+          "dependencies": {
+            "Microsoft.Azure.Mobile.Client.SQLiteStore": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "SQLite.Net.Async-PCL": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
